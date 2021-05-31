@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#a4c639">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:text="Edit Data Penjualan"
+        android:textColor="#FFFFFF"
+        android:textAlignment="center"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large" />
+
+    <EditText
+        android:id="@+id/editTextTanggal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Masukkan Tanggal"
+        android:textColor="#FFFFFF"/>
+
+
+    <EditText
+        android:id="@+id/editTextPendapatan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:digits="0123456789"
+        android:hint="Masukkan Pendapatan Kotor"
+        android:textColor="#FFFFFF"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/editTextPengeluaran"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:digits="0123456789"
+        android:hint="Masukkan Pengeluaran Kotor"
+        android:textColor="#FFFFFF"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/buttonUpdatePenjualan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Update"
+        android:textColor="#FFFFFF"
+        android:background="#0e918c"/>
+
+</LinearLayout>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#a4c639"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp"
+            android:text="Dhiani Shop No Play Play Boskuu"
+            android:textAlignment="center"
+            android:textSize="35dp"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/editTextTanggal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Masukkan Tanggal" />
+
+        <EditText
+            android:id="@+id/editTextPendapatan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:digits="0123456789"
+            android:hint="Masukkan Pendapatan Kotor"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/editTextPengeluaran"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:digits="0123456789"
+            android:hint="Masukkan pengeluaran kotor"
+            android:inputType="number" />
+
+        <Button
+            android:id="@+id/buttonAddPenjualan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Add Penjualan"
+            android:background="#0e918c"/>
+
+        <TextView
+            android:id="@+id/textViewViewPenjualans"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:text="View Penjualans"
+            android:textColor="#FFFFFF"
+            android:textAlignment="center"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+</RelativeLayout>
